@@ -160,7 +160,7 @@ Let's take a look at the results.
 <br/>
 <br/>
 
-### Results for video_1:
+### Video_1:
 
 https://user-images.githubusercontent.com/18697847/146691961-2013b167-7e68-4025-87b1-7b36b19c6e4f.mp4
 
@@ -173,9 +173,8 @@ https://user-images.githubusercontent.com/18697847/146691996-9938906f-448c-4d1b-
 https://user-images.githubusercontent.com/18697847/146691906-14fa32e8-54f0-4721-bef0-6fa8ae41ab42.mp4
 
 <br/>
-<br/>
 
-### Results for video_2:
+### Video_2:
 
 https://user-images.githubusercontent.com/18697847/146692011-31c789f3-8eaa-45eb-83f8-3e0d89ed3e86.mp4
 
