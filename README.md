@@ -124,9 +124,10 @@ subprocess.call(command,shell=True)
 os.remove(temp_file)
 
 ```
+<br/>
+<br/>
 
 We'll also create some counter-examples upscaled via more-traditional approaches.
-<br/>
 <br/>
 
 First we can use the same code as above, modified to use the OpenCV [resize](https://docs.opencv.org/4.5.4/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d) function to upscale each frame, by default via linear interpolation. 
