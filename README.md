@@ -1,11 +1,9 @@
 # Upscaling video with Python OpenCV
 <br/>
-<br/>
 
 (C) 2021 Seb Sikora, published under the [MIT License](https://opensource.org/licenses/MIT)
 
 [seb.nf.sikora@protonmail.com](mailto:seb.nf.sikora@protonmail.com)	
-<br/>
 <br/>
 
 ## Get using deep-learning based methods in your own Python projects with OpenCV dnn_superres
