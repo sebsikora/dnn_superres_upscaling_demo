@@ -125,7 +125,6 @@ os.remove(temp_file)
 
 ```
 <br/>
-<br/>
 
 We'll also create some counter-examples upscaled via more-traditional approaches.
 <br/>
