@@ -161,3 +161,15 @@ So, to recap: We will upscale both videos x4 to 800x450 via the approaches outli
 
 Let's take a look at the results for video_1:
 
+https://user-images.githubusercontent.com/18697847/146691874-1a803c53-7726-4760-a6cf-75eb84ba211f.mp4
+
+https://user-images.githubusercontent.com/18697847/146691878-d7951e52-a7b4-4a23-9270-bec33a71e3a2.mp4
+
+https://user-images.githubusercontent.com/18697847/146691889-1e7d9f67-51ed-445e-b845-13661e8f381b.mp4
+
+https://user-images.githubusercontent.com/18697847/146691896-6de3d00d-3195-4e46-8257-c5e61d88e4a4.mp4
+
+https://user-images.githubusercontent.com/18697847/146691906-14fa32e8-54f0-4721-bef0-6fa8ae41ab42.mp4
+
+
+
