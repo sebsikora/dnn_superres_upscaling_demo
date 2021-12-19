@@ -1,13 +1,15 @@
 # Upscaling video with Python OpenCV
+<br/>
+<br/>
 
 (C) 2021 Seb Sikora, published under the [MIT License](https://opensource.org/licenses/MIT)
 
-[seb.nf.sikora@protonmail.com](mailto:seb.nf.sikora@protonmail.com)
-
----
+[seb.nf.sikora@protonmail.com](mailto:seb.nf.sikora@protonmail.com)	
+<br/>
 <br/>
 
-## Get using deep-learning based methods in your own Python projects with<br/>OpenCV dnn_superres
+## Get using deep-learning based methods in your own Python projects with OpenCV dnn_superres
+<br/>
 <br/>
 
 [Super Resolution (SR)](https://blog.paperspace.com/image-super-resolution/) image upscaling via deep-learning based approaches can acheive really impressive performance compared to naive methods.
@@ -19,9 +21,11 @@ Xavier Weber has a great walk-through of the process of installing the modules a
 <br/>
 
 Below, I'm going to run-through how to apply the same approach to upscaling video files.
----
+<br/>
+<br/>
 
 ## Upscaling a video file in Python using dnn_superres
+<br/>
 <br/>
 
 Using some of the other features of OpenCV, we can use the same techniques demonstrated above to upscale video files! 
@@ -149,11 +153,6 @@ So, to recap: We will upscale both videos x4 to 800x450 via the approaches outli
 * ffmpeg (bicubic interpolation)
 * dnn_superres with the FSRCNN model
 * dnn_superres with the EDSR model
-<br/>
-<br/>
-
-(Note - For the embedded videos within this notebook to play to play correctly on my workstation I had to pass them through ffmpeg again to losslessly convert from mp4v to x264 eg `ffmpeg -i video_1_ffmpeg_ds_800x450.mp4 -c:v libx264 video_1_ffmpeg_ds_800x450_x264.mp4 
-`)
 <br/>
 <br/>
 
