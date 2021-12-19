@@ -3,6 +3,7 @@
 (C) 2021 Seb Sikora, published under the [MIT License](https://opensource.org/licenses/MIT)
 
 [seb.nf.sikora@protonmail.com](mailto:seb.nf.sikora@protonmail.com)
+
 ---
 <br/>
 
