@@ -38,6 +38,8 @@ user@home:~/dnn_superres/ffmpeg -t 10 -i video_1_1280x720.mp4 -vf scale=200:-2 -
 
 https://user-images.githubusercontent.com/18697847/146688988-b0cd3c35-f33b-4cbf-861c-862dd1003e22.mp4
 
+https://user-images.githubusercontent.com/18697847/146691799-747a308f-d41a-434b-9e5e-1b147dcd2319.mp4
+
 <br/>
 <br/>
 
