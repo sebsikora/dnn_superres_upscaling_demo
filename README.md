@@ -37,6 +37,7 @@ user@home:~/dnn_superres/ffmpeg -t 10 -i video_1_1280x720.mp4 -vf scale=200:-2 -
 ```
 
 https://user-images.githubusercontent.com/18697847/146688988-b0cd3c35-f33b-4cbf-861c-862dd1003e22.mp4
+<br/>
 
 Now let's take a look at the code!
 
