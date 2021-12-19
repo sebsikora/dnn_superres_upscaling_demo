@@ -2,11 +2,7 @@
 
 Where?
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="videos/original/video_1_200x112.mp4" type="video/mp4">
-</video>
-</figure>
+https://user-images.githubusercontent.com/18697847/146688988-b0cd3c35-f33b-4cbf-861c-862dd1003e22.mp4
 
 
 
