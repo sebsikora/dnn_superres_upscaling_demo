@@ -10,9 +10,8 @@
 
 ## Get using deep-learning based methods in your own Python projects with OpenCV dnn_superres
 <br/>
-<br/>
 
-[Super Resolution (SR)](https://blog.paperspace.com/image-super-resolution/) image upscaling via deep-learning based approaches can acheive really impressive performance compared to naive methods.
+[Super Resolution (SR)](https://blog.paperspace.com/image-super-resolution/) image upscaling via deep-learning based approaches can acheive really impressive results compared to naive methods.
 
 It's really easy to leverage this power in your own projects using the [OpenCV dnn_superres module](https://docs.opencv.org/4.x/d5/d29/tutorial_dnn_superres_upscale_image_single.html), all you need to get started is to install the [OpenCV-contrib modules](https://pypi.org/project/opencv-contrib-python/) and download a [pre-trained](https://github.com/Saafke/FSRCNN_Tensorflow/tree/master/models)[ model](https://github.com/Saafke/EDSR_Tensorflow/tree/master/models). 
 
@@ -25,7 +24,6 @@ Below, I'm going to run-through how to apply the same approach to upscaling vide
 <br/>
 
 ## Upscaling a video file in Python using dnn_superres
-<br/>
 <br/>
 
 Using some of the other features of OpenCV, we can use the same techniques demonstrated above to upscale video files! 
