@@ -156,8 +156,11 @@ So, to recap: We will upscale both videos x4 to 800x450 via the approaches outli
 * dnn_superres with the EDSR model
 <br/>
 
-Let's take a look at the results for video_1:
+Let's take a look at the results.
+<br/>
+<br/>
 
+### Results for video_1:
 
 https://user-images.githubusercontent.com/18697847/146691961-2013b167-7e68-4025-87b1-7b36b19c6e4f.mp4
 
@@ -172,7 +175,7 @@ https://user-images.githubusercontent.com/18697847/146691906-14fa32e8-54f0-4721-
 <br/>
 <br/>
 
-And for video_2:
+###Results for video_2:
 
 https://user-images.githubusercontent.com/18697847/146692011-31c789f3-8eaa-45eb-83f8-3e0d89ed3e86.mp4
 
