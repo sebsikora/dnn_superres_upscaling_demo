@@ -19,7 +19,7 @@ Xavier Weber has a great walk-through of the process of installing the modules a
 <br/>
 <br/>
 
-Below, I'm going to run-through how to apply the same approach to upscaling video files.
+Below, we're going to run-through how to apply the same approach to upscaling video files.
 <br/>
 <br/>
 
@@ -187,5 +187,8 @@ https://user-images.githubusercontent.com/18697847/146692064-f63a9107-491e-4248-
 
 https://user-images.githubusercontent.com/18697847/146692071-963249d1-8847-482a-9fad-0eba38a1c62f.mp4
 
+<br/>
+<br/>
 
+Blah blah blah...
 
