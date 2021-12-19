@@ -39,7 +39,6 @@ https://user-images.githubusercontent.com/18697847/146688988-b0cd3c35-f33b-4cbf-
 https://user-images.githubusercontent.com/18697847/146691799-747a308f-d41a-434b-9e5e-1b147dcd2319.mp4
 
 <br/>
-<br/>
 
 Now let's take a look at the code!
 
