@@ -3,7 +3,7 @@
 (C) 2021 Seb Sikora, published under the [MIT License](https://opensource.org/licenses/MIT)
 
 [seb.nf.sikora@protonmail.com](mailto:seb.nf.sikora@protonmail.com)
-***
+---
 <br/>
 
 ## Get using deep-learning based methods in your own Python projects with<br/>OpenCV dnn_superres
@@ -18,7 +18,7 @@ Xavier Weber has a great walk-through of the process of installing the modules a
 <br/>
 
 Below, I'm going to run-through how to apply the same approach to upscaling video files.
-***
+---
 
 ## Upscaling a video file in Python using dnn_superres
 <br/>
