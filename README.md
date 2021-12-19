@@ -6,7 +6,7 @@
 [seb.nf.sikora@protonmail.com](mailto:seb.nf.sikora@protonmail.com)	
 <br/>
 
-## Get using deep-learning based methods in your own Python projects with OpenCV dnn_superres
+## Get using deep-learning based methods in your own Python projects with<br/>OpenCV dnn_superres
 <br/>
 
 [Super Resolution (SR)](https://blog.paperspace.com/image-super-resolution/) image upscaling via deep-learning based approaches can acheive really impressive results compared to naive methods.
