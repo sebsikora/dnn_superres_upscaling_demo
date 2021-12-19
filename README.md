@@ -11,7 +11,7 @@
 
 [Super Resolution (SR)](https://blog.paperspace.com/image-super-resolution/) image upscaling via deep-learning based approaches can acheive really impressive results compared to naive methods.
 
-It's really easy to leverage this power in your own projects using the [OpenCV dnn_superres module](https://docs.opencv.org/4.x/d5/d29/tutorial_dnn_superres_upscale_image_single.html), all you need to get started is to install the [OpenCV-contrib modules](https://pypi.org/project/opencv-contrib-python/) and download a [pre-trained](https://github.com/Saafke/FSRCNN_Tensorflow/tree/master/models)[ model](https://github.com/Saafke/EDSR_Tensorflow/tree/master/models). 
+It's really easy to leverage this power in your own projects using the [OpenCV dnn_superres module](https://docs.opencv.org/4.x/d5/d29/tutorial_dnn_superres_upscale_image_single.html), all you need to get started is to install the [OpenCV-contrib modules](https://pypi.org/project/opencv-contrib-python/) and download a [pre-trained model](https://github.com/opencv/opencv_contrib/tree/master/modules/dnn_superres). 
 
 Xavier Weber has a great walk-through of the process of installing the modules and upscaling a single image [here](https://towardsdatascience.com/deep-learning-based-super-resolution-with-opencv-4fd736678066).
 <br/>
@@ -55,7 +55,7 @@ import os                                                 # ...(see at the end b
 
 scale_factor = 4   # Set upscaling factor here
 
-in_file = './videos/original/video_1_200x112.mp4'        # Path to input video file (low res)
+in_file = './videos/original/video_1_200x112.mp4'         # Path to input video file (low res)
 temp_file = in_file[:-4] + '_temp.mp4'                    # Path to temporary output video file (no audio)
 out_file = in_file[:-4] + '_final.mp4'                    # Path to final output video file (with audio)
 
