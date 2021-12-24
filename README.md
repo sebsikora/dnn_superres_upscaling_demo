@@ -22,7 +22,6 @@ Below, we're going to run-through how to apply the same approach to upscaling vi
 <br/>
 
 ## The Requirements
-<br/>
 
 ### Videos
 
