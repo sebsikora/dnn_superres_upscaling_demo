@@ -1,3 +1,4 @@
+[!banner](banner.png)
 # Upscaling video with Python OpenCV dnn_superres
 <br/>
 
