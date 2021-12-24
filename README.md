@@ -36,6 +36,7 @@ The original video dimensions are 1280x720, so first using ffmpeg we'll downscal
 user@home:~/dnn_superres/ffmpeg -t 10 -i video_1_1280x720.mp4 -vf scale=200:-2 -preset slow -crf 18 video_1_200x112.mp4
 ```
 <br/>
+<br/>
 
 https://user-images.githubusercontent.com/18697847/146688988-b0cd3c35-f33b-4cbf-861c-862dd1003e22.mp4
 
