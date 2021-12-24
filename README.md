@@ -23,11 +23,16 @@ Below, we're going to run-through how to apply the same approach to upscaling vi
 <br/>
 <br/>
 
-## The Requirements
+## Things we need
+
+### OpenCV dnn_superres contrib module
+
+Blah blah blah...
+<br/>
 
 ### Videos
 
-To demonstrate this, let's start with some gorgeous freely available videos provided by [Ajaya Bist](https://www.pexels.com/video/close-up-view-of-a-parrot-4982608/), [Erkan Avanoğlu](https://www.pexels.com/video/little-bird-inside-a-house-5761115/), [Anna Bondarenko](https://www.pexels.com/video/blue-butterfly-sitting-on-a-hand-5757715/), [Bogdan Krupin](https://www.pexels.com/video/a-trippy-light-show-on-a-brick-wall-with-windows-10469592/) & [Assad Tanoli](https://www.pexels.com/video/pomegranate-stacked-at-fruit-stall-5731603/) over at [pexels.com](https://www.pexels.com/).
+For this demonstration we'll use some gorgeous freely available videos provided by [Ajaya Bist](https://www.pexels.com/video/close-up-view-of-a-parrot-4982608/), [Erkan Avanoğlu](https://www.pexels.com/video/little-bird-inside-a-house-5761115/), [Anna Bondarenko](https://www.pexels.com/video/blue-butterfly-sitting-on-a-hand-5757715/), [Bogdan Krupin](https://www.pexels.com/video/a-trippy-light-show-on-a-brick-wall-with-windows-10469592/) & [Assad Tanoli](https://www.pexels.com/video/pomegranate-stacked-at-fruit-stall-5731603/) over at [pexels.com](https://www.pexels.com/).
 
 The original video dimensions are 1280x720, so first using ffmpeg we'll downscale both videos to 200x112 as shown at 100% scaling below. We will only retain the first ten seconds of the videos for the purpose of this demonstration.
 <br/>
@@ -48,11 +53,6 @@ https://user-images.githubusercontent.com/18697847/147356136-5ddc8373-d5a6-44a5-
 
 https://user-images.githubusercontent.com/18697847/147356140-84e2d115-a7f5-42e2-be0c-98bd3ec94e7a.mp4
 
-<br/>
-
-### OpenCV dnn_superres contrib module
-
-Blah blah blah...
 <br/>
 
 ### Pre-trained Models
@@ -174,10 +174,11 @@ user@home:~/dnn_superres/ffmpeg -i video_1_200x112.mp4 -vf scale=800:-2 -preset 
 ```
 <br/>
 
-So, to recap: We will upscale both videos x4 to 800x450 via the approaches outlined above and compare:
+So, to recap: We will the videos x4 to 800x450 via the approaches outlined above and compare:
 * cv2.resize (linear interpolation)
 * ffmpeg (bicubic interpolation)
 * dnn_superres with the FSRCNN model
+* dnn_superres with the LapSRN model
 * dnn_superres with the EDSR model
 <br/>
 
