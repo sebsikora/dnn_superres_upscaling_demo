@@ -7,7 +7,6 @@
 <br/>
 
 ## The Premise
-Get using deep-learning based methods in your own Python projects with<br/>OpenCV dnn_superres
 <br/>
 
 [Super Resolution (SR)](https://blog.paperspace.com/image-super-resolution/) image upscaling via deep-learning based approaches can acheive really impressive results compared to naive methods.
@@ -24,8 +23,6 @@ Below, we're going to run-through how to apply the same approach to upscaling vi
 
 ## The Requirements
 <br/>
-
-Using some of the other features of OpenCV, we can use the same techniques demonstrated above to upscale video files! 
 
 To demonstrate this, let's start with some gorgeous freely available videos provided by [Ajaya Bist](https://www.pexels.com/video/close-up-view-of-a-parrot-4982608/) and [Erkan Avanoğlu](https://www.pexels.com/video/little-bird-inside-a-house-5761115/) over at [pexels.com](https://www.pexels.com/)
 
