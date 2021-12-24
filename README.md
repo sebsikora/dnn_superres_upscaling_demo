@@ -30,10 +30,12 @@ Below, we're going to run-through how to apply the same approach to upscaling vi
 To demonstrate this, let's start with some gorgeous freely available videos provided by [Ajaya Bist](https://www.pexels.com/video/close-up-view-of-a-parrot-4982608/), [Erkan Avanoğlu](https://www.pexels.com/video/little-bird-inside-a-house-5761115/), [Anna Bondarenko](https://www.pexels.com/video/blue-butterfly-sitting-on-a-hand-5757715/), [Bogdan Krupin](https://www.pexels.com/video/a-trippy-light-show-on-a-brick-wall-with-windows-10469592/) & [Assad Tanoli](https://www.pexels.com/video/pomegranate-stacked-at-fruit-stall-5731603/) over at [pexels.com](https://www.pexels.com/).
 
 The original video dimensions are 1280x720, so first using ffmpeg we'll downscale both videos to 200x112 as shown at 100% scaling below. We will only retain the first ten seconds of the videos for the purpose of this demonstration.
+<br/>
 
 ```
 user@home:~/dnn_superres/ffmpeg -t 10 -i video_1_1280x720.mp4 -vf scale=200:-2 -preset slow -crf 18 video_1_200x112.mp4
 ```
+<br/>
 
 https://user-images.githubusercontent.com/18697847/146688988-b0cd3c35-f33b-4cbf-861c-862dd1003e22.mp4
 
