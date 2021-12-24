@@ -61,6 +61,7 @@ We need to download a pre-trained model that the dnn_superres module will use to
 
 Four types of pre-trained model are available, varying in performance, available scaling factors and computational cost. Broadly, the 'fastest & least-performant' is [FSRCNN](), while the 'slowest and most-performant' is [EDSR](), with [LapSRN]() falling somewhere in between. Scaling factors of x2, x3 & x4 are provided by both FSRCNN and EDSR, while x2, x4 & x8 are provided by LapSRN.
 <br/>
+<br/>
 
 ## The Code
 <br/>
