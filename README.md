@@ -49,7 +49,9 @@ Blah...
 
 ## The Code
 <br/>
+
 Now let's take a look at the code:
+<br/>
 
 We're going to be using the OpenCV [VideoCapture](https://docs.opencv.org/4.5.4/d8/dfe/classcv_1_1VideoCapture.html#ac4107fb146a762454a8a87715d9b7c96) class to open our low-res source video and iterate through it frame-by-frame, the OpenCV contrib [dnn_superres interface](https://docs.opencv.org/4.x/d5/d29/tutorial_dnn_superres_upscale_image_single.html) to upscale each frame, and the OpenCV [VideoWriter](https://docs.opencv.org/4.5.4/dd/d9e/classcv_1_1VideoWriter.html#ac3478f6257454209fa99249cc03a5c59) class to create an output container and fill it with our upscaled frames.
 
