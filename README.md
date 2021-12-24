@@ -50,10 +50,16 @@ https://user-images.githubusercontent.com/18697847/147356140-84e2d115-a7f5-42e2-
 
 <br/>
 
+### OpenCV dnn_superres contrib module
+
+Blah blah blah...
+<br/>
+
 ### Pre-trained Models
 
-Blah...
+We need to download a pre-trained model that the dnn_superres module will use to upscale our videos. See [here](https://github.com/opencv/opencv_contrib/tree/master/modules/dnn_superres#models) for information on the available models and download links.
 
+Four types of pre-trained model are available, varying in performance, available scaling factors and computational cost. Broadly, the 'fastest & least-performant' is [FSRCNN](), while the 'slowest and most-performant' is [EDSR](), with [LapSRN]() falling somewhere in between. Scaling factors of x2, x3 & x4 are provided by both FSRCNN and EDSR, while x2, x4 & x8 are provided by LapSRN.
 <br/>
 
 ## The Code
