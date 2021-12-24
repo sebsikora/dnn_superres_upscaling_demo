@@ -15,7 +15,7 @@
 
 It's really easy to leverage this power in your own projects using the [OpenCV dnn_superres module](https://docs.opencv.org/4.x/d5/d29/tutorial_dnn_superres_upscale_image_single.html), all you need to get started is to install the [OpenCV-contrib modules](https://pypi.org/project/opencv-contrib-python/) and download a [pre-trained model](https://github.com/opencv/opencv_contrib/tree/master/modules/dnn_superres). 
 
-Xavier Weber has a great walk-through of the process of installing the modules and upscaling a single image [here](https://towardsdatascience.com/deep-learning-based-super-resolution-with-opencv-4fd736678066).
+Xavier Weber has a great walk-through of the process of installing the module and upscaling a single image [here](https://towardsdatascience.com/deep-learning-based-super-resolution-with-opencv-4fd736678066).
 <br/>
 <br/>
 
@@ -27,7 +27,7 @@ Below, we're going to run-through how to apply the same approach to upscaling vi
 
 ### Videos
 
-To demonstrate this, let's start with some gorgeous freely available videos provided by [Ajaya Bist](https://www.pexels.com/video/close-up-view-of-a-parrot-4982608/) and [Erkan Avanoğlu](https://www.pexels.com/video/little-bird-inside-a-house-5761115/) over at [pexels.com](https://www.pexels.com/)
+To demonstrate this, let's start with some gorgeous freely available videos provided by [Ajaya Bist](https://www.pexels.com/video/close-up-view-of-a-parrot-4982608/), [Erkan Avanoğlu](https://www.pexels.com/video/little-bird-inside-a-house-5761115/), [Anna Bondarenko](https://www.pexels.com/video/blue-butterfly-sitting-on-a-hand-5757715/), [Bogdan Krupin](https://www.pexels.com/video/a-trippy-light-show-on-a-brick-wall-with-windows-10469592/) & [Assad Tanoli](https://www.pexels.com/video/pomegranate-stacked-at-fruit-stall-5731603/) over at [pexels.com](https://www.pexels.com/).
 
 The original video dimensions are 1280x720, so first using ffmpeg we'll downscale both videos to 200x112 as shown at 100% scaling below. We will only retain the first ten seconds of the videos for the purpose of this demonstration.
 
