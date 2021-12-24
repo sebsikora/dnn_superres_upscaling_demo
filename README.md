@@ -24,6 +24,8 @@ Below, we're going to run-through how to apply the same approach to upscaling vi
 ## The Requirements
 <br/>
 
+### Videos
+
 To demonstrate this, let's start with some gorgeous freely available videos provided by [Ajaya Bist](https://www.pexels.com/video/close-up-view-of-a-parrot-4982608/) and [Erkan Avanoğlu](https://www.pexels.com/video/little-bird-inside-a-house-5761115/) over at [pexels.com](https://www.pexels.com/)
 
 The original video dimensions are 1280x720, so first using ffmpeg we'll downscale both videos to 200x112 as shown at 100% scaling below. We will only retain the first ten seconds of the videos for the purpose of this demonstration.
@@ -37,6 +39,11 @@ https://user-images.githubusercontent.com/18697847/146688988-b0cd3c35-f33b-4cbf-
 https://user-images.githubusercontent.com/18697847/146691799-747a308f-d41a-434b-9e5e-1b147dcd2319.mp4
 
 <br/>
+
+### Pre-trained Models
+
+Blah...
+
 <br/>
 
 ## The Code
