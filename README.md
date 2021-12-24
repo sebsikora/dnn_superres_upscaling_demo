@@ -1,4 +1,4 @@
-# Upscaling video with Python OpenCV
+# Upscaling video with Python OpenCV dnn_superres
 <br/>
 
 (C) 2021 Seb Sikora, published under the [MIT License](https://opensource.org/licenses/MIT)
